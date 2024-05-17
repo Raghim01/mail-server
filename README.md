@@ -31,6 +31,7 @@
 ```bash
 $ npm install
 ```
+## Change variables in .env with your own to connect to DB
 
 ## Running the app
 
@@ -45,18 +46,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
+## Add Tables to DB
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+$ npm run migration:run
 
 ## Support
 
