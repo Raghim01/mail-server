@@ -32,6 +32,12 @@
 $ npm install
 ```
 ## Change variables in .env with your own to connect to DB
+#DB CONNECTION CREDENTIAL
+POSTGRES_HOST=your_data
+POSTGRES_PORT=your_data
+POSTGRES_USER=your_data
+POSTGRES_PASSWORD=your_data
+POSTGRES_DB=your_data
 
 ## Running the app
 
@@ -49,6 +55,7 @@ $ npm run start:prod
 ## Add Tables to DB
 ```bash
 $ npm run migration:run
+```
 
 ## Support
 
