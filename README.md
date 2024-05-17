@@ -32,12 +32,14 @@
 $ npm install
 ```
 ## Change variables in .env with your own to connect to DB
+```bash
 #DB CONNECTION CREDENTIAL
 POSTGRES_HOST=your_data
 POSTGRES_PORT=your_data
 POSTGRES_USER=your_data
 POSTGRES_PASSWORD=your_data
 POSTGRES_DB=your_data
+```
 
 ## Running the app
 
